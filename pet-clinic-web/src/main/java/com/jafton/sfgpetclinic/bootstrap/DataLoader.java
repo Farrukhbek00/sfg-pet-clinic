@@ -27,7 +27,6 @@ public class DataLoader implements CommandLineRunner {
         this.visitService = visitService;
     }
 
-
     @Override
     public void run(String... args) throws Exception {
 
