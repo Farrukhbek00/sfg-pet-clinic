@@ -2,9 +2,11 @@ package com.jafton.sfgpetclinic.services.map;
 
 import com.jafton.sfgpetclinic.model.Visit;
 import com.jafton.sfgpetclinic.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
     @Override
