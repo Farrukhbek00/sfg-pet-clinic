@@ -6,12 +6,11 @@ import com.jafton.sfgpetclinic.repositories.PetRepository;
 import com.jafton.sfgpetclinic.repositories.PetTypeRepository;
 import com.jafton.sfgpetclinic.services.OwnerService;
 import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
 
-@Service
+
 @Profile("springdatajpa")
 public class OwnerSDJpaService implements OwnerService {
 
